@@ -134,7 +134,7 @@ img {
   outline: none;
   border:1px;
   border-radius: 2rem;
-  transition: all .15s ease-in-out;
+  transition: all .25s ease-in-out;
   
 }
 .btn:hover{
