@@ -160,13 +160,13 @@ img {
   gap: 2rem;
 }
 .counter__title{
-font-size: var(--font-size-d-mc);
+font-size: var(--font-size-d-mc);-+
 color: var(--color-primary-6);
 }
 .counter__value{
   font-size: var(--font-size-d-mc);
   font-weight: 600;
 }
-.btn-container{
- margin-right:1px;
+.counter__btns{
+margin-right: 1px;
 }
