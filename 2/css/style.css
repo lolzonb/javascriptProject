@@ -132,12 +132,15 @@ img {
   color: var(--color-primary-1);
   font-size: var(--font-size-d-s);
   outline: none;
-  border: none;
-  border-radius: 1rem;
+  border:1px;
+  border-radius: 2rem;
+  transition: all .15s ease-in-out;
+  
 }
 .btn:hover{
-  background-color: var(--color-primary-8);
-  color: var(--color-primary-2);
+  background-color: var(--color-primary-1);
+  color: var(--color-primary-9);
+  box-shadow: 1px 2px 1px  var(--color-primary-9);
 }
 
 .container {
@@ -168,5 +171,5 @@ color: var(--color-primary-6);
   font-weight: 600;
 }
 .counter__btns{
-margin-right: 1px;
+margin-right: 1rem;
 }
